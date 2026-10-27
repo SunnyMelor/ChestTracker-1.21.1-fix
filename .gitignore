@@ -1,4 +1,4 @@
-# gradle
+﻿# gradle
 
 .gradle/
 build/
@@ -27,11 +27,14 @@ bin/
 # macos
 
 *.DS_Store
+Thumbs.db
+desktop.ini
 
 # fabric
 
 run/
 runServer/
+runs/
 
 # java
 
@@ -39,3 +42,16 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+hs_err_pid*
+replay_pid*
+
+# logs / crash dumps
+
+*.log
+crash-reports/
+
+# local secrets
+
+*_api_key.txt
+modrinth_token.txt
+curseforge_token.txt
